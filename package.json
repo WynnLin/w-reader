@@ -1,0 +1,33 @@
+{
+  "name": "NewProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.ios.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle"
+  },
+  "dependencies": {
+    "constants": "0.0.2",
+    "moment-js": "^1.1.15",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.43.3",
+    "react-native-code-push": "^4.0.0-beta",
+    "react-native-gifted-listview": "0.0.15",
+    "react-native-message-bar": "^2.0.10",
+    "react-native-search-bar": "^3.4.1",
+    "react-native-storage": "^0.2.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.0.1",
+    "reqwest": "^2.0.5"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
